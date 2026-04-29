@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """Ideal Cirq verification suite for multi-bus Boolean fan-in routing.
 
-This script extends the repository's single-bus checks to the fan-in model from
-`fanin_note.tex`. It verifies that several routed controls can arrive on
+This script extends the repository's single-bus checks to the fan-in model. It verifies that several routed controls can arrive on
 distinct buses at one target, trigger a Boolean target rule, and then clean up
 all routing offsets exactly.
 
