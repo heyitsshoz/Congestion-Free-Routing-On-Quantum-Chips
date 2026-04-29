@@ -16,7 +16,7 @@
    logical-route metrics are not mistaken for a full qudit compiler result.
 
 The aim is narrower and cleaner: verify the logical-routing and congestion
-claims on real circuit families under a reproducible, bias-resistant method.
+claims on real circuit families under a reproducible method.
 """
 
 from __future__ import annotations
