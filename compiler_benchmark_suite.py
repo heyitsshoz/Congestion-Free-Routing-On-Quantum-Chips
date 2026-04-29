@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
-"""Unbiased compiler-facing validation for the paper's routing claims.
 
-What this script does
+"""What this script does
 ---------------------
 1. Builds fixed, reproducible logical circuits from nontrivial families.
 2. Extracts only the two-qubit interaction layers that drive routing demand.
@@ -15,12 +14,6 @@ What this script does
    - congestion rounds `ceil(chi/K)` for user-chosen K values.
 5. Separately records actual Qiskit qubit-compiler reference stats so the
    logical-route metrics are not mistaken for a full qudit compiler result.
-
-What this script does *not* do
-------------------------------
-- It does not claim to implement a production qudit compiler.
-- It does not search over custom path assignments until the qudit model wins.
-- It does not interpret a favorable benchmark as a hardware-fidelity result.
 
 The aim is narrower and cleaner: verify the logical-routing and congestion
 claims on real circuit families under a reproducible, bias-resistant method.
