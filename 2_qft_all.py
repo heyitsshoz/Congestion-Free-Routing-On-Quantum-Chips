@@ -2,10 +2,6 @@
 
 from __future__ import annotations
 
-# This file is intentionally flattened so it can run standalone without sibling repo files.
-
-# Inlined from: verification_common.py
-
 import concurrent.futures
 import csv
 import json
