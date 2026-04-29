@@ -1,1 +1,23 @@
-
+cff-version: 1.0.0
+message: "If you use this repo, please cite it as below."
+authors:
+- family-names: "Kumar"
+  given-names: "Mithilesh"
+  orcid: "https://orcid.org/0009-0005-0450-1843"
+- family-names: "Tahir"
+  given-names: "Yusuf"
+  orcid: "https://orcid.org/0009-0005-6915-0714"
+- family-names: "Daiya"
+  given-names: "Varun"
+  orcid: "https://orcid.org/0009-0006-3363-6330"
+- family-names: "Mattaparthi"
+  given-names: "Sanjana"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+- family-names: "Shaurya"
+  given-names: "Aarav"
+  orcid: "https://orcid.org/0009-0008-9732-6424"
+title: "Congestion-Free-Routing-On-Quantum-Chips"
+version: 1.0.0
+doi: 10.5281/zenodo.19882521 
+date-released: 2026-04-29
+url: "https://github.com/heyitsshoz/Congestion-Free-Routing-On-Quantum-Chips"
